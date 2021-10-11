@@ -24,7 +24,7 @@ To send a basic test email run the following from a cli. Replace the `To:` email
 ```
 echo -e '\n Content-Type: text/plain; boundary=x\nTo: somemail@somedomain.com\nSubject: some subject\n\n--xContent-Type: multipart/alternative;\nboundary="z"\n\n --zContent-Type: text/html;\n\nsome text' | runuser -u www-data -- /usr/bin/php /var/www/html/fs/lib/vmailer.php
 ```
-To do a full simulation, including voicemail attachment, use the `test.txt` file,  replacing `To:` with your email address.  The test.txt file is an actual email output captured from FreeSWITCH. 
+To do a full simulation, including voicemail attachment, use the `test.txt` file,  replacing `To:` with your email address.  The `test.txt` file is an actual email output captured from FreeSWITCH. 
 ```
 printf '%b\n' "$(cat test.txt)"| runuser -u www-data -- /usr/bin/php /var/www/html/fs/lib/vmailer.php
 ```
