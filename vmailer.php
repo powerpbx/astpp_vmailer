@@ -27,7 +27,8 @@ mailer_app.php
   POSSIBILITY OF SUCH DAMAGE.
 */
 
-/* Additions and modifications by:
+/* 
+* Additions & modifications provided by:
 *  devops@powerpbx.org 
 *
 */
