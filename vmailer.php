@@ -29,7 +29,7 @@ mailer_app.php
 
 /* 
 * Additions & modifications provided by:
-*  devops@powerpbx.org 
+* @author devops@powerpbx.org 
 *
 */
 
