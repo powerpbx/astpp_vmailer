@@ -29,7 +29,7 @@ mailer_app.php
 
 /* Additions and modifications by:
 *  devops@powerpbx.org 
-*  Copyright (C) 2021 PowerPBX.org
+*
 */
 
 use PHPMailer\PHPMailer\PHPMailer;
