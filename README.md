@@ -1,5 +1,8 @@
 # ASTPP Voicemail to Email
 
+As described at the following link
+https://freeswitch.org/confluence/display/FREESWITCH/PHP+email
+
 ## Requirements
 * Requires PHP v7.x
 * Tested on FreeSWITCH v1.10 but should work on older versions.
