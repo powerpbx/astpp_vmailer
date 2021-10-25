@@ -12,12 +12,12 @@ https://freeswitch.org/confluence/display/FREESWITCH/PHP+email
 
 Copy the files into `/var/www/html/fs/lib` and make sure the webserver has read permissions (ie. `chmod 644` for example).
 
-### Configure ASTPP SMTP settings
+#### Configure ASTPP SMTP settings
 Enable and configure SMTP in ASTPP GUI `Configuration > Settings > Notifications > Email` as per ASTPP requirements.
 
 For example, gmail host configuration should be in the form `ssl://smtp.googlemail.com`
 
-### Configure FreeSWITCH
+#### Configure FreeSWITCH
 
 Edit `/etc/freeswitch/autoload_configs/switch.config.xml` as follows
 
